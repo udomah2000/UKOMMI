@@ -259,7 +259,9 @@ img {
 .nav__close:hover {
   color: var(--first-color-alt);
 }
-
+.nav .nav__logo img{
+  width: 90px !important;
+}
 /* show menu */
 .show-menu {
   bottom: 0;
