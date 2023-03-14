@@ -262,7 +262,7 @@ img {
 
 /* show menu */
 .show-menu {
-  bottom: 1;
+  bottom: 0;
 }
 
 /* Active link */
