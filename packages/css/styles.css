@@ -1126,10 +1126,16 @@ img {
 @media screen and (min-width: 568px) {
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
+    
   }
+  
 
   .home__data {
     grid-column: initial;
+
+  }
+  .home__data h1{
+    font-size: 10px !important;
   }
   .home__img {
     order: 1;
