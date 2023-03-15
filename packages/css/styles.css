@@ -254,6 +254,9 @@ img {
 .tab-titles{
   text-align: center !important;
   /* display: block !important; */
+
+}
+.tab-links{
   font-size: 10px !important;
   margin-right: 5px !important;
 
