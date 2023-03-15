@@ -252,8 +252,10 @@ img {
     border-radius: 3px;
   }
 .tab-titles{
-  /* text-align: center !important; */
+  text-align: center !important;
   /* display: block !important; */
+  font-size: 10px !important;
+  margin-right: 5px !important;
 
 }
 
