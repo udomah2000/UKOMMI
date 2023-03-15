@@ -12,13 +12,8 @@
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="./packages/css/styles.css">
-        <!-- <link rel="stylesheet" href="./packages/css/bootstrap-grid.css">
-        <link rel="stylesheet" href="./packages/css/bootstrap-grid.min.css">
-        <link rel="stylesheet" href="./packages/css/bootstrap.css">
-        <link rel="stylesheet" href="./packages/css/bootstrap.min.css">
- -->
-
-        <title>Prashanna</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+        <title>UKOMMI</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
@@ -117,13 +112,6 @@
                                 FACULTY OF ENGINEERING
                                 AKWA IBOM STATE UNIVERSITY
                             </p>
-                             <p class="home__description">
-                                <h3 class="home-subtitle">
-                                    Profile
-                                </h3>
-                                Engr. Dr. Ubong Ukommi, is a communication engineer with deep interest in teaching, project management, engineering research and development. I have over ten years of experience in research and development, providing advanced expertise in communication systems and characterization; satellite and multimedia broadcast solutions for improved quality of communication experience.
-                               I have over thirty (30) technical publications in Communication Engineering.
-                             </p>
                             <a href="#contact" class="button button--flex home__button">
                                 Contact Me<i class="uil uil-message button__icon"></i>
                             </a>
@@ -142,39 +130,120 @@
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
+                <div class="container">
                 <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">My Introduction</span>
-
-                <div class="about__container container grid">
-                    <img src="packages/images/pras-2.jpeg" alt="" class="about__img">
-                    <div class="about__data">
-                        <p class="about__description">
-                            Data analyst, with extensive knowledge and years of experience, 
-                            working in Digital banking technologies and other data analitical tools, 
-                            delivering quality work.
-                        </p>
-                        <div class="about__info">
-                            <div>
-                                <span class="about__info-title">03+</span>
-                                <span class="about__info-name">Years <br> experience</span>
-                            </div>
-                            <div>
-                                <span class="about__info-title">05+</span>
-                                <span class="about__info-name">Completed <br> certifications</span>
-                            </div>
-                            <div>
-                                <span class="about__info-title">02+</span>
-                                <span class="about__info-name">companies<br>worked</span>
-                            </div>
+                <div class="grid_2">
+                    <div class="image">
+                        <div class=" about__img">
+                            <img src="./packages/images/pras-1.jpeg" alt="">
                         </div>
-
-                        <div class="about__buttons">
+                        <div class="about__buttons pt-4">
                             <a download="" href="packages/pdf/" class="button button--flex">
                                 Download CV<i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
                     </div>
+                    
+                    
+               
+                <div class="profile">
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('profile')">Profile  </p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Certification</p>
                 </div>
+                <div class="tab-contents active-tab" id="profile">
+                    <p class="home__description">
+                        Engr. Dr. Ubong Ukommi, is a communication engineer with deep interest in teaching, 
+                        project management, engineering research and development.
+                        I have over ten years of experience in research and development, providing advanced
+                         expertise in communication systems and characterization; satellite and multimedia
+                          broadcast solutions for improved quality of communication experience. 
+                        I have over thirty (30) technical publications in Communication Engineering.
+                       </p>
+                       <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <p class="home__subtitle">View More</p>
+                        <div>
+                        </div>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <p class="home__description">
+                                        Currently, I am a senior lecturer since October 2017 in the 
+                                        Department of Electrical and Electronic Engineering, 
+                                        Akwa Ibom State University, Ikot Akpaden, Akwa Ibom State, Nigeria.
+                                         I obtained my first degree, Bachelor of Engineering (B.Eng)
+                                          in Communication Engineering from the Department of Electrical and
+                                           Electronic Engineering, Federal University of Technology Owerri (FUTO),
+                                            Nigeria in 2004. In 2008, I obtained my master degree (M.Sc) in Mobile
+                                             and Satellite Communications from the University of Surrey, Guildford, 
+                                             United Kingdom. Having completed my M.Sc programme, I further enrolled in
+                                              the school of postgraduate studies, University of Surrey, Guildford,
+                                               United Kingdom, where I completed my Doctor of Philosophy (Ph.D) programme 
+                                               in Electronic Engineering (Communication Engineering) from the Department
+                                                of Electronic Engineering.
+                                             In order to enhance my productivity as a competent research project engineer,
+                                              I enrolled and completed a professional certification in project management
+                                               methodology from APMG-International, United Kingdom. I am actively involved in 
+                                               the activities of Association of Consulting Engineers in Nigeria (ACEN) and Council for 
+                                               the Regulation of Engineering in Nigeria (COREN). At the global level, I have made technical
+                                                presentation and publications of significant research findings in reputable journals and 
+                                                conferences in London, United Kingdom, California, United States of America, and Abuja, Nigeria.
+                                             Industrially, I started my career with the Nigeria Television Authority (NTA), 
+                                             Zamfara State, where I developed interest in broadcasting and communication engineering. Having 
+                                             completed my MSc programme in mobile and satellite communications engineering, I worked for 
+                                             Viewsat Limited, Guildford, United Kingdom, where I served as a team member consulting and 
+                                             developing solutions for improved quality of communication experience. I also led the design 
+                                             of “Ground Station” project at the University of Surrey, United Kingdom. The project was funded
+                                              by the University of Surrey and Surrey Satellite Technology Limited, United Kingdom, and was
+                                               designed to facilitate ground control stations to communicate better with spacecraft and
+                                                share information with astronauts via the internet to increase the effectiveness of future
+                                                 space mission.
+                                                 <br> <br>
+                                                    AREA OF INTEREST:
+                                                        Electronic communication engineering
+                                                        Research interests include multimedia communications,
+                                                         mobile and satellite communications and sustainable energy system.          
+                                                        </p>
+                                    
+                                </div>
+                            </div> 
+                       </div>
+                   </div>
+                  </div>
+                  <div class="tab-contents" id="experience">
+                   <p class="home__description">
+                    <ul>
+                        <li><span>October 2022-Present</span> <br> <span class="text-bg-light">CURENT POSITION</span><br>Acting Head, Department 
+                            of Electrical and Electronic Engineering, Akwa Ibom State 
+                            University, Ikot Akpaden, Akwa Ibom State
+                        </li>
+                        <li><span>January 2008 - January 2013</span><br> <span class="">RESEARCH OFFICER</span><br> 
+                            Centre for Communication Systems Research (CCSR), University of Surrey, Guildford, United Kingdom.
+                            Investigation of impact of content motion intensity on received quality of mobile video communication
+                            Development of adaptation techniques for improved quality of wireless multimedia communication.</li>
+                            <li><span>Jan 2010 - October 2012</span> <br> <span class="text-bg-light">LABORATORY DEMONSTRATOR</span><br>
+                                Department of Electronic Engineering, University of Surrey, Guildford, United Kingdom.
+                            </li>
+                            <li><span>Sept. 2004 - August 2005</span> <br> <span class="text-bg-light">TRANSMISSION AND CONTROL ENGINEER</span><br>
+                                NYSC. Communication and Braodcasting Engineering, Nigerian Television Authority (NTA), Gusau, Zamfara State.
+                            </li> 
+                    </ul>
+                </div>
+               <div class="tab-contents" id="education">
+                   <ul>
+                       <li><span>2014</span><br>UI/UX Design Training at ET Institutes.</li>
+                    
+                       <li><span>2012</span><br>BBA from ISM Bangalore.</li>
+                   </ul>
+               </div>
+            </div>
+
+                        
+            </div>
+            </div>
             </section>
 
             <!--==================== SKILLS ====================-->
@@ -925,9 +994,9 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="./packages/js/main.js"></script>
-    <!-- <script src="./packages/js/bootstrap.js"></script>
-    <script src="./packages/js/swiper-bundle.min.js"></script>
- -->
+    <script>
+
+    </script>
 </body>
 
 </html>
