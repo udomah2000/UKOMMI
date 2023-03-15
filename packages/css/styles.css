@@ -161,6 +161,21 @@ img {
 .section__subtitle {
   text-align: center;
 }
+.grid_2{
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid_3{
+  display: grid;
+  grid-gap: 3.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid_4{
+  display: grid;
+  grid-gap: 4.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 /*==================== LAYOUT ====================*/
 
@@ -215,7 +230,7 @@ img {
 @media screen and (max-width: 767px) {
   .nav__menu {
     position:fixed;
-    bottom:0;
+    bottom:-100%;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
