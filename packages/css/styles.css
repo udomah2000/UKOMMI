@@ -1050,8 +1050,10 @@ img {
 /* For small devices */
 @media screen and (max-width: 380px) {
   .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
+    margin-left: var(--mb-1) !important;
+    margin-right: var(--mb-1) !important;
+    padding: 0 1.5rem !important;
+    width: 100% !important;
   }
 
   .nav__menu {
