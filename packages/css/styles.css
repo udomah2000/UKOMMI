@@ -252,8 +252,8 @@ img {
     border-radius: 3px;
   }
 .tab-titles{
-  text-align: center !important;
-  display: block !important;
+  /* text-align: center !important; */
+  /* display: block !important; */
 
 }
 
@@ -488,7 +488,7 @@ img {
    height: 3px;
    background:lightskyblue;
    position: absolute;
-   left: 0;
+   left: 2px;
    bottom: -8px;
    transition: 0.5s;
 }
