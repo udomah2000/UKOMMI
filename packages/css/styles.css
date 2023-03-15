@@ -1065,7 +1065,9 @@ img {
   .home__content {
     grid-template-columns: 0.35fr 3fr;
   }
-
+.home__data h1, h3{
+  font-size: 12px !important;
+}
   .home__blob {
     width: 250px;
   }
@@ -1124,6 +1126,11 @@ img {
   .testimonial__description {
     text-align: center;
   }
+}
+@media screen and (max-width: 768px){
+.home__data h1, h3{
+  font-size: 15px !important;
+}
 }
 
 /* For medium devices */
