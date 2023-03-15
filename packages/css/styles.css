@@ -1059,6 +1059,9 @@ img {
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
   }
+  .home__data h1{
+    font-size: 18px !important;
+  }
 
   .nav__list {
     column-gap: 0;
