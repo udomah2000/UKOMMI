@@ -106,8 +106,8 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
     clickable: true,
   },
 
-  /* mousewheel: true,
-  keyboard: true, */
+  mousewheel: true,
+  keyboard: true, 
 });
 
 /*==================== TESTIMONIAL ====================*/
@@ -128,8 +128,8 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
     },
   },
 
-  /* mousewheel: true,
-  keyboard: true, */
+   mousewheel: true,
+  keyboard: true,
 });
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
@@ -211,17 +211,4 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
-var tablinks = document.getElementsByClassName("tab-links");
-var tabcontents = document.getElementsByClassName("tab-contents");
-
-function opentab(tabname){
-    for(tablink of tablinks){
-        tablink.classList.remove("active-link");
-    }
-    for(tabcontent of tabcontents){
-        tabcontent.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab");
-}
 

@@ -351,7 +351,7 @@ img {
 }
 
 .home__title {
-  font-size: var(--big-font-size);
+  font-size: var(--h2-font-size);
 
 }
 
@@ -670,6 +670,7 @@ img {
   transform: rotate(-180deg);
 }
 
+/*==================== QUALIFICATION ====================*/
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
   display: flex;

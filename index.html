@@ -13,6 +13,11 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="./packages/css/styles.css">
         <link rel="stylesheet" href="./packages/css/all.css">
+        <!-- <link rel="stylesheet" href="./packages/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="./packages/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="./packages/css/bootstrap.css">
+        <link rel="stylesheet" href="./packages/css/bootstrap.min.css"> -->
+
         <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
         <title>UKOMMI</title>
     </head>
@@ -150,11 +155,11 @@
                
                 <div class="profile">
                 <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('profile')">Profile  </p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Certification</p>
+                    <p class="tab-links active-link" onclick="opentab('pro')">Profile  </p>
+                    <p class="tab-links" onclick="opentab('exp')">Experience</p>
+                    <p class="tab-links" onclick="opentab('edu')">Certification</p>
                 </div>
-                <div class="tab-contents active-tab" id="profile">
+                <div class="tab-contents active-tab" id="pro">
                     <p class="home__description">
                         Engr. Dr. Ubong Ukommi, is a communication engineer with deep interest in teaching, 
                         project management, engineering research and development.
@@ -204,18 +209,17 @@
                                                 share information with astronauts via the internet to increase the effectiveness of future
                                                  space mission.
                                                  <br> <br>
-                                                    AREA OF INTEREST:
+                                                       AREA OF INTEREST:
                                                         Electronic communication engineering
                                                         Research interests include multimedia communications,
                                                          mobile and satellite communications and sustainable energy system.          
                                                         </p>
-                                    
                                 </div>
                             </div> 
                        </div>
                    </div>
                   </div>
-                  <div class="tab-contents" id="experience">
+                  <div class="tab-contents" id="exp">
                    <p class="home__description">
                     <ul>
                         <li><span>October 2022-Present</span> <br> <span class="text-bg-light">CURENT POSITION</span><br>Acting Head, Department 
@@ -234,7 +238,7 @@
                             </li> 
                     </ul>
                 </div>
-               <div class="tab-contents" id="education">
+               <div class="tab-contents" id="edu">
                    <ul>
                        <li><span>University of Surrey, Guildford, England, United Kingdom.</span><br>
                         Ph.D; Electronic Engineering (Communication Engineering option)</li>
@@ -246,9 +250,7 @@
                        </li>
                    </ul>
                </div>
-            </div>
-
-                        
+            </div>        
             </div>
             </div>
             </section>
@@ -263,7 +265,7 @@
                          <!--==================== SKILL-1 ====================-->
                         <div class="skills__content skills__open">
                             <div class="skills__header">
-                                <i class="uil uil-money-bill skills__icon"></i>
+                                <i class="uil uil-money-bill  skills__icon"></i>
                                <div>
                                    <h1 class="skills__title">RESEARCH</h1>
                                </div>
@@ -318,15 +320,6 @@
                                        </h4>
                                    </div>
                                </div>
-                               <!-- <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h3 class="skills__name">Google Suite</h3>
-                                       <span class="skills__number">70%</span>
-                                   </div>
-                                   <div class="skills__bar">
-                                       <span class="skills__percentage skills__google"></span>
-                                   </div>
-                               </div> -->
                             </div>
                         </div>
                          <!--==================== SKILLS 2 ====================-->
@@ -335,16 +328,18 @@
                                 <i class="uil uil-money-bill skills__icon"></i>
                                <div>
                                    <h1 class="skills__title">UNIVERSITY TEACHING EXPERIENCE</h1>
-                                   <span class="skills__subtitle">Postgraduate courses taught and credit units</span>
                                </div>
 
                                <i class="uil uil-angle-down skills__arrow"></i>
                             </div>
                             <div class="skills__list grid">
+                                <h3 class="skills__name" style="color:skyblue;">Postgraduate courses taught and credit units <hr> </h3>
                                 <div class="skills__data">
                                     <div class="skills__titles">
                                         <h3 class="skills__name">EEE 852:   Advanced Digital Communications</h3>
                                         <h4 class="skills__number">3</h4>
+                                        <h4 class="skills__number">3</h4>
+
                                     </div>
                                </div>
                                <div class="skills__data">
@@ -385,9 +380,50 @@
                         </div>
                      </div>
                       </div>
+  <!------------------------ second item ------------------------------>
+                      <div class="skills__list grid">
+                        <h3 class="skills__name" style="color: skyblue;">Undergraduate courses taught and credit units <hr> </h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">EEC 552: Radio Frequency and Microwave Fundamentals</h3>
+                                <h4 class="skills__number">2</h4>
+                            </div>
+                       </div>
+                       <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">EEC 511: Digital Communications</h3>
+                            <h4 class="skills__number">3</h4>
+                        </div>
+                   </div>
+                   <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">ENG 411: Numerical Analysis for Engineers</h3>
+                        <h4 class="skills__number">3</h4>
                     </div>
-                    </div>
+               </div>
+               <div class="skills__data">
+                <div class="skills__titles">
+                    <h3 class="skills__name">EEE 341: Electromagnetic Fields and Waves</h3>
+                    <h4 class="skills__number">3</h4>
+                </div>
+             </div>
 
+             <div class="skills__data">
+                <div class="skills__titles">
+                    <h3 class="skills__name">EEE 352: Electronic and Communication Laboratory I</h3>
+                    <h4 class="skills__number">1</h4>
+                </div>
+             </div>
+             <div class="skills__data">
+                <div class="skills__titles">
+                    <h3 class="skills__name">EEE 232: Digital Systems Fundamentals</h3>
+                    <h4 class="skills__number">3</h4>
+                </div>
+             </div>
+              </div>
+        <!------------------ -x- second item -x- ----------------------------->
+                    </div>
+                    </div>
                     <div>
                         <!--==================== SKILLS 3 ====================-->
                         <div class="skills__content skills__close">
@@ -444,159 +480,160 @@
             </section>
 
               <!--==================== QUALIFICATION ====================-->
-        <section class="qualification__section">
-            <h2 class="section__title">Qualification</h2>
-            <span class="section__subtitle">My personal journey</span>
-
-            <div class="qualification__container container">
-                <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                        <i class="uil uil-graduation-cap qualification__icon"></i>
-                        Education
-                    </div>
-
-                    <div class="qualification__button button--flex" data-target="#work">
-                        <i class="uil uil-briefcase-alt qualification__icon"></i>
-                        Work
-                    </div>
-                </div>
-
-                <div class="qualification__sections">
-            <!--==================== QUALIFICATION CONTENT 1 ====================-->
-            <div class="qualification__content qualification__active" data-content id="education">
-             <!--==================== QUALIFICATION 1 ====================--> 
-             <div class="qualification__data">
-                 <div>
-                     <h3 class="qualification__title">Diploma in English </h3>
-                     <span class="qualification__subtitle">British Council, Kandy</span>
-                     <div class="qualification__calendar">
-                        <i class="uil uil-calendar-alt"></i>
-                        2011 - 2012
-                     </div>
-                 </div>
-
-                 <div>
-                     <span class="qualification__rounder"></span>
-                     <span class="qualification__line"></span>
-                 </div>
-             </div>
-             
-             <!--==================== QUALIFICATION 2 ====================--> 
-             <div class="qualification__data">
-                <div></div>
-                <div>
-                   <span class="qualification__rounder"></span>
-                   <span class="qualification__line"></span>
-                </div>
-
-                <div>
-                    <h3 class="qualification__title">GCE Adavance Level</h3>
-                    <span class="qualification__subtitle">St.Anthony's College, Kandy</span>
-                    <div class="qualification__calendar">
-                       <i class="uil uil-calendar-alt"></i>
-                       2012 - 2014
-                    </div>
-                </div>
-            </div> 
-
-            <!--==================== QUALIFICATION 3 ====================--> 
-            <div class="qualification__data">
-                <div>
-                    <h3 class="qualification__title">BSc Management Information System</h3>
-                    <span class="qualification__subtitle">NSBM Green University</span>
-                    <div class="qualification__calendar">
-                       <i class="uil uil-calendar-alt"></i>
-                       2015 - 2018
-                    </div>
-                </div>
-
-                <div>
-                    <span class="qualification__rounder"></span>
-                    <span class="qualification__line"></span>
-                </div>
-            </div> 
-
-            <!--==================== QUALIFICATION 4 ====================--> 
-            <div class="qualification__data">
-                <div></div>
-                <div>
-                    <span class="qualification__rounder"></span>
-                   <!-- <span class="qualification__line"></span> -->
-                </div>
-
-                <div>
-                    <h3 class="qualification__title">Data Analyst Professional Certification</h3>
-                    <span class="qualification__subtitle">Google | Coursera - Online</span>
-                    <div class="qualification__calendar">
-                       <i class="uil uil-calendar-alt"></i>
-                       2021
-                    </div>
-                </div>
-
-                
-            </div>
-            </div>
-            
-            <!--==================== QUALIFICATION CONTENT 2 ====================-->
-            <div class="qualification__content" data-content id="work">
-                <!--==================== QUALIFICATION 1 ====================--> 
-                <div class="qualification__data">
-                    <div>
-                        <h3 class="qualification__title">Trainee Banking Assistant</h3>
-                        <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
-                        <div class="qualification__calendar">
-                           <i class="uil uil-calendar-alt"></i>
-                           2017 - 2019
+              <section class="qualification__section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My personal journey</span>
+    
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+    
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
                         </div>
                     </div>
-   
+    
+                    <div class="qualification__sections">
+                <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                <div class="qualification__content qualification__active" data-content id="education">
+                 <!--==================== QUALIFICATION 1 ====================--> 
+                 <div class="qualification__data">
+                     <div>
+                         <h3 class="qualification__title">Diploma in English </h3>
+                         <span class="qualification__subtitle">British Council, Kandy</span>
+                         <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            2011 - 2012
+                         </div>
+                     </div>
+    
+                     <div>
+                         <span class="qualification__rounder"></span>
+                         <span class="qualification__line"></span>
+                     </div>
+                 </div>
+                 
+                 <!--==================== QUALIFICATION 2 ====================--> 
+                 <div class="qualification__data">
+                    <div></div>
+                    <div>
+                       <span class="qualification__rounder"></span>
+                       <span class="qualification__line"></span>
+                    </div>
+    
+                    <div>
+                        <h3 class="qualification__title">GCE Adavance Level</h3>
+                        <span class="qualification__subtitle">St.Anthony's College, Kandy</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2012 - 2014
+                        </div>
+                    </div>
+                </div> 
+    
+                <!--==================== QUALIFICATION 3 ====================--> 
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">BSc Management Information System</h3>
+                        <span class="qualification__subtitle">NSBM Green University</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2015 - 2018
+                        </div>
+                    </div>
+    
                     <div>
                         <span class="qualification__rounder"></span>
                         <span class="qualification__line"></span>
                     </div>
+                </div> 
+    
+                <!--==================== QUALIFICATION 4 ====================--> 
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                       <!-- <span class="qualification__line"></span> -->
+                    </div>
+    
+                    <div>
+                        <h3 class="qualification__title">Data Analyst Professional Certification</h3>
+                        <span class="qualification__subtitle">Google | Coursera - Online</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2021
+                        </div>
+                    </div>
+    
+                    
+                </div>
                 </div>
                 
-                <!--==================== QUALIFICATION 2 ====================--> 
-                <div class="qualification__data">
-                   <div></div>
-                   <div>
-                      <span class="qualification__rounder"></span>
-                      <span class="qualification__line"></span>
-                   </div>
-   
-                   <div>
-                       <h3 class="qualification__title">Banking Assistant</h3>
-                       <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
-                       <div class="qualification__calendar">
-                          <i class="uil uil-calendar-alt"></i>
-                          2019 - 2020
+                <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                <div class="qualification__content" data-content id="work">
+                    <!--==================== QUALIFICATION 1 ====================--> 
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Trainee Banking Assistant</h3>
+                            <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                            <div class="qualification__calendar">
+                               <i class="uil uil-calendar-alt"></i>
+                               2017 - 2019
+                            </div>
+                        </div>
+       
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+                    
+                    <!--==================== QUALIFICATION 2 ====================--> 
+                    <div class="qualification__data">
+                       <div></div>
+                       <div>
+                          <span class="qualification__rounder"></span>
+                          <span class="qualification__line"></span>
                        </div>
-                   </div>
-               </div> 
-   
-               <!--==================== QUALIFICATION 3 ====================--> 
-               <div class="qualification__data">
-                   <div>
-                       <h3 class="qualification__title">Data Analyst - Digital banking</h3>
-                       <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
-                       <div class="qualification__calendar">
-                          <i class="uil uil-calendar-alt"></i>
-                          2020 - Present
+       
+                       <div>
+                           <h3 class="qualification__title">Banking Assistant</h3>
+                           <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                           <div class="qualification__calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              2019 - 2020
+                           </div>
                        </div>
+                   </div> 
+       
+                   <!--==================== QUALIFICATION 3 ====================--> 
+                   <div class="qualification__data">
+                       <div>
+                           <h3 class="qualification__title">Data Analyst - Digital banking</h3>
+                           <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                           <div class="qualification__calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              2020 - Present
+                           </div>
+                       </div>
+       
+                       <div>
+                           <span class="qualification__rounder"></span>
+                           <!-- <span class="qualification__line"></span> -->
+                       </div>
+                   </div> 
+              
+                   </div> 
+                 
                    </div>
-   
-                   <div>
-                       <span class="qualification__rounder"></span>
-                       <!-- <span class="qualification__line"></span> -->
-                   </div>
-               </div> 
+                </div>
+            </section>
           
-               </div> 
-             
-               </div>
-            </div>
-        </section>
-      
+          
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
             <h2 class="section__title">Services</h2>
@@ -1001,7 +1038,7 @@
                 </ul>
 
                 <div class="footer__socials">
-                    <a href=https://www.facebook.com/prashanna.drashan" target="_blank" class="footer__social">
+                    <a href=" https://www.facebook.com/prashanna.drashan " target="_blank" class="footer__social">
                         <i class="uil uil-facebook"></i>
                     </a>
                     <a href="https://www.instagram.com/prashanna01/" target="_blank" class="footer__social">
@@ -1027,7 +1064,25 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="./packages/js/main.js"></script>
+    <!-- <script src="./packages/js/bootstrap.js"></script>
+    <script src="./packages/js/bootstrap.min.js"></script> -->
+
+
     <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
 
     </script>
 </body>
