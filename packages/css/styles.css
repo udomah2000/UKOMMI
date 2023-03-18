@@ -108,6 +108,10 @@ body.dark-theme {
   margin: 0;
   text-decoration: none !important;
 }
+.margin_item{
+  margin-right: 4rem;
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -258,6 +262,15 @@ img {
 }
 .media-font{
   font-size: 13px !important;
+}
+.margin_item{
+  margin-right: 1.5rem !important;
+}
+.media-title{
+  font-size: 16px !important;
+}
+.media-title-1{
+  font-size: 18px !important;
 }
 
 }
