@@ -1,143 +1,149 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="./packages/css/styles.css">
-        <link rel="stylesheet" href="./packages/css/all.css">
-        <!-- <link rel="stylesheet" href="./packages/css/bootstrap-grid.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./packages/css/styles.css">
+    <link rel="stylesheet" href="./packages/css/all.css">
+    <!-- <link rel="stylesheet" href="./packages/css/bootstrap-grid.css">
         <link rel="stylesheet" href="./packages/css/bootstrap-grid.min.css">
         <link rel="stylesheet" href="./packages/css/bootstrap.css">
         <link rel="stylesheet" href="./packages/css/bootstrap.min.css"> -->
 
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
-        <title>UKOMMI</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <i class=""></i>
-        <header class="header " id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo"><img src="./packages/images/ukommi-low-resolution-color-logo-removebg-preview - Copy.png"  alt="" srcset=""></a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">
-                                <i class="uil uil-estate nav__icon"></i>Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i>About
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i>Skills
-                            </a>
-                        </li>
-                          <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i>Services
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i>Portfolio                                
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i>Contact                               
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <title>UKOMMI</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <i class=""></i>
+    <header class="header " id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"><img
+                    src="./packages/images/ukommi-low-resolution-color-logo-removebg-preview - Copy.png" alt=""
+                    srcset=""></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i>Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button -->
+
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
                 </div>
-                <div class="nav__btns">
-                    <!-- Theme change button -->
+            </div>
+        </nav>
+    </header>
 
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section " id="home">
+            <div class="home__container container grid main-home">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/prashanna-sathiyamoorthy-194704153/" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://twitter.com/prashanna01" target="_blank" class="home__social-icon">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                        <a href="https://www.github.com" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
                     </div>
-                </div>
-            </nav>
-        </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section " id="home">
-                <div class="home__container container grid main-home" >
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/prashanna-sathiyamoorthy-194704153/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-                            <a href="https://twitter.com/prashanna01" target="_blank" class="home__social-icon">
-                                <i class="uil uil-twitter-alt"></i>
-                            </a>
-                            <a href="https://www.github.com" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                        </div>
-
-                        <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                                     97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home__blob-img" x="" xlink:href="packages/images/pras-1.jpeg"/>
-                                </g>
-                            </svg>
-                        </div>
-
-                        <div class="home__data">
-                            <h1 class="home__title">ENGR. DR. UBONG S. UKOMMI</h1>
-                            <h3 class="home__subtitle">SENIOR LECTURER</h3>
-                            <p class="home__description">
-                                DEPARTMENT OF ELECTRICAL AND ELECTRONIC 
-                                ENGINEERING
-                                FACULTY OF ENGINEERING
-                                AKWA IBOM STATE UNIVERSITY
-                            </p>
-                            <a href="#contact" class="button button--flex home__button">
-                                Contact Me<i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-img" x="" xlink:href="packages/images/pras-1.jpeg" />
+                            </g>
+                        </svg>
                     </div>
 
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    <div class="home__data">
+                        <h1 class="home__title">ENGR. DR. UBONG S. UKOMMI</h1>
+                        <h3 class="home__subtitle">SENIOR LECTURER</h3>
+                        <p class="home__description">
+                            DEPARTMENT OF ELECTRICAL AND ELECTRONIC
+                            ENGINEERING
+                            FACULTY OF ENGINEERING
+                            AKWA IBOM STATE UNIVERSITY
+                        </p>
+                        <a href="#contact" class="button button--flex home__button">
+                            Contact Me<i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
                 </div>
-            </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <div class="container">
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="container">
                 <h2 class="section__title">About Me</h2>
                 <div class="grid_2">
                     <div class="image">
@@ -150,785 +156,847 @@
                             </a>
                         </div>
                     </div>
-                    
-                    
-               
-                <div class="profile">
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('pro')">Profile  </p>
-                    <p class="tab-links" onclick="opentab('exp')">Experience</p>
-                    <p class="tab-links" onclick="opentab('edu')">Certification</p>
-                </div>
-                <div class="tab-contents active-tab" id="pro">
-                    <p class="home__description">
-                        Engr. Dr. Ubong Ukommi, is a communication engineer with deep interest in teaching, 
-                        project management, engineering research and development.
-                        I have over ten years of experience in research and development, providing advanced
-                         expertise in communication systems and characterization; satellite and multimedia
-                          broadcast solutions for improved quality of communication experience. 
-                        I have over thirty (30) technical publications in Communication Engineering.
-                       </p>
-                       <div class="skills__content skills__close">
-                        <div class="skills__header">
-                            <p class="home__subtitle">View More</p>
-                        <div>
+
+
+
+                    <div class="profile">
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('pro')">Profile </p>
+                            <p class="tab-links" onclick="opentab('exp')">Experience</p>
+                            <p class="tab-links" onclick="opentab('edu')">Certification</p>
                         </div>
+                        <div class="tab-contents active-tab" id="pro">
+                            <p class="home__description">
+                                Engr. Dr. Ubong Ukommi, is a communication engineer with deep interest in teaching,
+                                project management, engineering research and development.
+                                I have over ten years of experience in research and development, providing advanced
+                                expertise in communication systems and characterization; satellite and multimedia
+                                broadcast solutions for improved quality of communication experience.
+                                I have over thirty (30) technical publications in Communication Engineering.
+                            </p>
+                            <div class="skills__content skills__close">
+                                <div class="skills__header">
+                                    <p class="home__subtitle">View More</p>
+                                    <div>
+                                    </div>
+                                </div>
+                                <div class="skills__list grid">
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <p class="home__description">
+                                                Currently, I am a senior lecturer since October 2017 in the
+                                                Department of Electrical and Electronic Engineering,
+                                                Akwa Ibom State University, Ikot Akpaden, Akwa Ibom State, Nigeria.
+                                                I obtained my first degree, Bachelor of Engineering (B.Eng)
+                                                in Communication Engineering from the Department of Electrical and
+                                                Electronic Engineering, Federal University of Technology Owerri (FUTO),
+                                                Nigeria in 2004. In 2008, I obtained my master degree (M.Sc) in Mobile
+                                                and Satellite Communications from the University of Surrey, Guildford,
+                                                United Kingdom. Having completed my M.Sc programme, I further enrolled
+                                                in
+                                                the school of postgraduate studies, University of Surrey, Guildford,
+                                                United Kingdom, where I completed my Doctor of Philosophy (Ph.D)
+                                                programme
+                                                in Electronic Engineering (Communication Engineering) from the
+                                                Department
+                                                of Electronic Engineering.
+                                                In order to enhance my productivity as a competent research project
+                                                engineer,
+                                                I enrolled and completed a professional certification in project
+                                                management
+                                                methodology from APMG-International, United Kingdom. I am actively
+                                                involved in
+                                                the activities of Association of Consulting Engineers in Nigeria (ACEN)
+                                                and Council for
+                                                the Regulation of Engineering in Nigeria (COREN). At the global level, I
+                                                have made technical
+                                                presentation and publications of significant research findings in
+                                                reputable journals and
+                                                conferences in London, United Kingdom, California, United States of
+                                                America, and Abuja, Nigeria.
+                                                Industrially, I started my career with the Nigeria Television Authority
+                                                (NTA),
+                                                Zamfara State, where I developed interest in broadcasting and
+                                                communication engineering. Having
+                                                completed my MSc programme in mobile and satellite communications
+                                                engineering, I worked for
+                                                Viewsat Limited, Guildford, United Kingdom, where I served as a team
+                                                member consulting and
+                                                developing solutions for improved quality of communication experience. I
+                                                also led the design
+                                                of “Ground Station” project at the University of Surrey, United Kingdom.
+                                                The project was funded
+                                                by the University of Surrey and Surrey Satellite Technology Limited,
+                                                United Kingdom, and was
+                                                designed to facilitate ground control stations to communicate better
+                                                with spacecraft and
+                                                share information with astronauts via the internet to increase the
+                                                effectiveness of future
+                                                space mission.
+                                                <br> <br>
+                                                AREA OF INTEREST:
+                                                Electronic communication engineering
+                                                Research interests include multimedia communications,
+                                                mobile and satellite communications and sustainable energy system.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-contents" id="exp">
+                            <p class="home__description">
+                            <ul>
+                                <li><span>October 2022-Present</span> <br> <span class="text-bg-light">CURENT
+                                        POSITION</span><br>Acting Head, Department
+                                    of Electrical and Electronic Engineering, Akwa Ibom State
+                                    University, Ikot Akpaden, Akwa Ibom State
+                                </li>
+                                <li><span>January 2008 - January 2013</span><br> <span class="">RESEARCH
+                                        OFFICER</span><br>
+                                    Centre for Communication Systems Research (CCSR), University of Surrey, Guildford,
+                                    United Kingdom.
+                                    Investigation of impact of content motion intensity on received quality of mobile
+                                    video communication
+                                    Development of adaptation techniques for improved quality of wireless multimedia
+                                    communication.</li>
+                                <li><span>Jan 2010 - October 2012</span> <br> <span class="text-bg-light">LABORATORY
+                                        DEMONSTRATOR</span><br>
+                                    Department of Electronic Engineering, University of Surrey, Guildford, United
+                                    Kingdom.
+                                </li>
+                                <li><span>Sept. 2004 - August 2005</span> <br> <span class="text-bg-light">TRANSMISSION
+                                        AND CONTROL ENGINEER</span><br>
+                                    NYSC. Communication and Braodcasting Engineering, Nigerian Television Authority
+                                    (NTA), Gusau, Zamfara State.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="edu">
+                            <ul>
+                                <li><span>University of Surrey, Guildford, England, United Kingdom.</span><br>
+                                    Ph.D; Electronic Engineering (Communication Engineering option)</li>
+
+                                <li><span>University of Surrey, Guildford, England, United Kingdom.</span><br>M.Sc;
+                                    Mobile and Satellite Communications </li>
+                                <li>
+                                    <span>Federal University of Technology, Owerri, Imo State, Nigeria.</span> <br>
+                                    B.Eng; Electrical and Electronic Engineering (Communication Engineering Option)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title media-title-1">WORKING EXPERIENCE</h2>
+            <!-- <span class="section__subtitle">My technical level</span> -->
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILL-1 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-graduation-cap  skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title media-title">RESEARCH</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <p class="home__description">
-                                        Currently, I am a senior lecturer since October 2017 in the 
-                                        Department of Electrical and Electronic Engineering, 
-                                        Akwa Ibom State University, Ikot Akpaden, Akwa Ibom State, Nigeria.
-                                         I obtained my first degree, Bachelor of Engineering (B.Eng)
-                                          in Communication Engineering from the Department of Electrical and
-                                           Electronic Engineering, Federal University of Technology Owerri (FUTO),
-                                            Nigeria in 2004. In 2008, I obtained my master degree (M.Sc) in Mobile
-                                             and Satellite Communications from the University of Surrey, Guildford, 
-                                             United Kingdom. Having completed my M.Sc programme, I further enrolled in
-                                              the school of postgraduate studies, University of Surrey, Guildford,
-                                               United Kingdom, where I completed my Doctor of Philosophy (Ph.D) programme 
-                                               in Electronic Engineering (Communication Engineering) from the Department
-                                                of Electronic Engineering.
-                                             In order to enhance my productivity as a competent research project engineer,
-                                              I enrolled and completed a professional certification in project management
-                                               methodology from APMG-International, United Kingdom. I am actively involved in 
-                                               the activities of Association of Consulting Engineers in Nigeria (ACEN) and Council for 
-                                               the Regulation of Engineering in Nigeria (COREN). At the global level, I have made technical
-                                                presentation and publications of significant research findings in reputable journals and 
-                                                conferences in London, United Kingdom, California, United States of America, and Abuja, Nigeria.
-                                             Industrially, I started my career with the Nigeria Television Authority (NTA), 
-                                             Zamfara State, where I developed interest in broadcasting and communication engineering. Having 
-                                             completed my MSc programme in mobile and satellite communications engineering, I worked for 
-                                             Viewsat Limited, Guildford, United Kingdom, where I served as a team member consulting and 
-                                             developing solutions for improved quality of communication experience. I also led the design 
-                                             of “Ground Station” project at the University of Surrey, United Kingdom. The project was funded
-                                              by the University of Surrey and Surrey Satellite Technology Limited, United Kingdom, and was
-                                               designed to facilitate ground control stations to communicate better with spacecraft and
-                                                share information with astronauts via the internet to increase the effectiveness of future
-                                                 space mission.
-                                                 <br> <br>
-                                                       AREA OF INTEREST:
-                                                        Electronic communication engineering
-                                                        Research interests include multimedia communications,
-                                                         mobile and satellite communications and sustainable energy system.          
-                                                        </p>
+                                    <h4 class="skills__name">
+                                        <span>MSc Dissertation:
+                                            <hr>
+                                        </span><br>
+                                        Adaptation Techniques for Improved Quality
+                                        of Wireless Multimedia Communication.
+                                        Investigation and development of adaptation
+                                        technologies for improved quality of communication experience.
+                                        University of Surrey, United Kingdom.
+                                    </h4>
                                 </div>
-                            </div> 
-                       </div>
-                   </div>
-                  </div>
-                  <div class="tab-contents" id="exp">
-                   <p class="home__description">
-                    <ul>
-                        <li><span>October 2022-Present</span> <br> <span class="text-bg-light">CURENT POSITION</span><br>Acting Head, Department 
-                            of Electrical and Electronic Engineering, Akwa Ibom State 
-                            University, Ikot Akpaden, Akwa Ibom State
-                        </li>
-                        <li><span>January 2008 - January 2013</span><br> <span class="">RESEARCH OFFICER</span><br> 
-                            Centre for Communication Systems Research (CCSR), University of Surrey, Guildford, United Kingdom.
-                            Investigation of impact of content motion intensity on received quality of mobile video communication
-                            Development of adaptation techniques for improved quality of wireless multimedia communication.</li>
-                            <li><span>Jan 2010 - October 2012</span> <br> <span class="text-bg-light">LABORATORY DEMONSTRATOR</span><br>
-                                Department of Electronic Engineering, University of Surrey, Guildford, United Kingdom.
-                            </li>
-                            <li><span>Sept. 2004 - August 2005</span> <br> <span class="text-bg-light">TRANSMISSION AND CONTROL ENGINEER</span><br>
-                                NYSC. Communication and Braodcasting Engineering, Nigerian Television Authority (NTA), Gusau, Zamfara State.
-                            </li> 
-                    </ul>
-                </div>
-               <div class="tab-contents" id="edu">
-                   <ul>
-                       <li><span>University of Surrey, Guildford, England, United Kingdom.</span><br>
-                        Ph.D; Electronic Engineering (Communication Engineering option)</li>
-                    
-                       <li><span>University of Surrey, Guildford, England, United Kingdom.</span><br>M.Sc; Mobile and Satellite Communications </li>
-                       <li>
-                        <span>Federal University of Technology, Owerri, Imo State, Nigeria.</span> <br>
-                        B.Eng; Electrical and Electronic Engineering (Communication Engineering Option)
-                       </li>
-                   </ul>
-               </div>
-            </div>        
-            </div>
-            </div>
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section__title media-title-1">WORKING EXPERIENCE</h2>
-                <!-- <span class="section__subtitle">My technical level</span> -->
-
-                <div class="skills__container container grid">
-                    <div>
-                         <!--==================== SKILL-1 ====================-->
-                        <div class="skills__content skills__open">
-                            <div class="skills__header">
-                                <i class="uil uil-graduation-cap  skills__icon"></i>
-                               <div>
-                                   <h1 class="skills__title media-title" >RESEARCH</h1>
-                               </div>
-
-                               <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h4 class="skills__name">
-                                            <span>MSc Dissertation:<hr></span><br>
-                                            Adaptation Techniques for Improved Quality 
-                                            of Wireless Multimedia Communication. 
-                                            Investigation and development of adaptation
-                                             technologies for improved quality of communication experience.
-                                              University of Surrey, United Kingdom.
-                                        </h4>
-                                    </div>
-                                    <!-- <div class="skills__bar">
+                                <!-- <div class="skills__bar">
                                         <span class="skills__percentage skills__python"></span>
                                     </div> -->
-                                </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h4 class="skills__name">
-                                        <span class="">MSc Dissertation:<hr></span><br>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h4 class="skills__name">
+                                        <span class="">MSc Dissertation:
+                                            <hr>
+                                        </span><br>
                                         Ground Station Design for Satellite Communication.
-                                         A design which was used in July 2009, 
-                                         as a test site to demonstrate the capabilities of
-                                          the European Space Agency's GENSO software system.
-                                           The ground station was designed to allow ground 
-                                           control stations to communicate better with spacecraft 
-                                           and share information with astronauts via the internet 
-                                           with the aim of improving the effectiveness of future space missions.
-                                            University of Surrey, United Kingdom.
-                                       </h4>
-                                   </div>
-                                   <!-- <div class="skills__bar">
+                                        A design which was used in July 2009,
+                                        as a test site to demonstrate the capabilities of
+                                        the European Space Agency's GENSO software system.
+                                        The ground station was designed to allow ground
+                                        control stations to communicate better with spacecraft
+                                        and share information with astronauts via the internet
+                                        with the aim of improving the effectiveness of future space missions.
+                                        University of Surrey, United Kingdom.
+                                    </h4>
+                                </div>
+                                <!-- <div class="skills__bar">
                                        <span class="skills__percentage skills__tab"></span>
                                    </div> -->
-                               </div>
-                               <div class="skills__data">
-                                   <div class="skills__titles">
-                                       <h4 class="skills__name">
-                                        <span>Eng, Undergraduate Final Year Project:<hr></span><br>
-                                         Design and construction of a wireless transceiver for communication. 
-                                         An undergraduate research project submitted to the Department of
-                                          Electrical and Electronic Engineering, School of Engineering and
-                                           Engineering Technology, Federal University of Technology, owerri,
-                                            Imo State, Nigeria, 2004. Federal University of Technology, Owerri, 
-                                            Imo State, Nigeria.
-                                       </h4>
-                                   </div>
-                               </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h4 class="skills__name">
+                                        <span>Eng, Undergraduate Final Year Project:
+                                            <hr>
+                                        </span><br>
+                                        Design and construction of a wireless transceiver for communication.
+                                        An undergraduate research project submitted to the Department of
+                                        Electrical and Electronic Engineering, School of Engineering and
+                                        Engineering Technology, Federal University of Technology, owerri,
+                                        Imo State, Nigeria, 2004. Federal University of Technology, Owerri,
+                                        Imo State, Nigeria.
+                                    </h4>
+                                </div>
                             </div>
                         </div>
-                         <!--==================== SKILLS 2 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-graduation-cap skills__icon"></i>
-                               <div>
-                                   <h1 class="skills__title media-title">UNIVERSITY TEACHING EXPERIENCE</h1>
-                               </div>
-
-                               <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-graduation-cap skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title media-title">UNIVERSITY TEACHING EXPERIENCE</h1>
                             </div>
-                            <div class="skills__list grid">
-                                <h3 class="skills__name" style="color:skyblue;">Postgraduate courses taught and credit units <hr> </h3>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h4 class="skills__name media-font">EEE 852:   Advanced Digital Communications</h4>
-                                        <h4 class="skills__number">3</h4>
 
-                                    </div>
-                               </div>
-                               <div class="skills__data">
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <h3 class="skills__name" style="color:skyblue;">Postgraduate courses taught and credit units
+                                <hr>
+                            </h3>
+                            <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name media-font">EEE 862:  Advanced Satellite Communication Techniques	</h3>
+                                    <h4 class="skills__name media-font">EEE 852: Advanced Digital Communications</h4>
+                                    <h4 class="skills__number">3</h4>
+
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEE 862: Advanced Satellite Communication
+                                        Techniques </h3>
                                     <h4 class="skills__number">3</h4>
                                 </div>
-                           </div>
-                           <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name media-font">EEE 872:   Radio Frequency Systems and Microwave Engineering</h3>
-                                <h4 class="skills__number">3</h4>
                             </div>
-                       </div>
-                       <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font">EEE 861: Mobile Communication Networks and Systems</h3>
-                            <h4 class="skills__number">3</h4>
-                        </div>
-                     </div>
-
-                     <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font">EEE 861: Mobile Communication Networks and Systems</h3>
-                            <h4 class="skills__number">3</h4>
-                        </div>
-                     </div>
-                     <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font">EEE 861: Mobile Communication Networks and Systems</h3>
-                            <h4 class="skills__number">3</h4>
-                        </div>
-                     </div>
-                     <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font">EEE 861: Mobile Communication Networks and Systems</h3>
-                            <h4 class="skills__number">3</h4>
-                        </div>
-                     </div>
-                      </div>
-  <!------------------------ second item ------------------------------>
-                      <div class="skills__list grid">
-                        <h3 class="skills__name" style="color: skyblue;">Undergraduate courses taught and credit units <hr> </h3>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name media-font">EEC 552: Radio Frequency and Microwave Fundamentals</h3>
-                                <h4 class="skills__number">2</h4>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEE 872: Radio Frequency Systems and Microwave
+                                        Engineering</h3>
+                                    <h4 class="skills__number">3</h4>
+                                </div>
                             </div>
-                       </div>
-                       <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font">EEC 511: Digital Communications</h3>
-                            <h4 class="skills__number">3</h4>
-                        </div>
-                   </div>
-                   <div class="skills__data">
-                    <div class="skills__titles">
-                        <h3 class="skills__name media-font">ENG 411: Numerical Analysis for Engineers</h3>
-                        <h4 class="skills__number">3</h4>
-                    </div>
-               </div>
-               <div class="skills__data">
-                <div class="skills__titles">
-                    <h3 class="skills__name media-font">EEE 341: Electromagnetic Fields and Waves</h3>
-                    <h4 class="skills__number">3</h4>
-                </div>
-             </div>
-
-             <div class="skills__data">
-                <div class="skills__titles">
-                    <h3 class="skills__name media-font">EEE 352: Electronic and Communication Laboratory I</h3>
-                    <h4 class="skills__number">1</h4>
-                </div>
-             </div>
-             <div class="skills__data">
-                <div class="skills__titles">
-                    <h3 class="skills__name media-font">EEE 232: Digital Systems Fundamentals</h3>
-                    <h4 class="skills__number">3</h4>
-                </div>
-             </div>
-              </div>
-        <!------------------ -x- second item -x- ----------------------------->
-                    </div>
-                    </div>
-                    <div>
-                        <!--==================== SKILLS 3 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-graduation-cap skills__icon"></i>
-                               <div>
-                                   <h1 class="skills__title media-title">ACTING APPOINTMENT HELD WITHIN THE UNIVERSITY</h1>
-                               </div>
-
-                               <i class="uil uil-angle-down skills__arrow"></i>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEE 861: Mobile Communication Networks and
+                                        Systems</h3>
+                                    <h4 class="skills__number">3</h4>
+                                </div>
                             </div>
-                            <div class="skills__list grid">
-                                <h3 class="skills__name" style="color:skyblue;">March 2006 - Date<hr> </h3>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h4 class="skills__name media-font margin_item">
-                                             Acting Head, Department of 
-                                             Electrical and Electronci Engineering, 
-                                             Akwa Ibom State University, Ikot Akpaden,
-                                             Akwa Ibom State,
-                                             Nigeria
-                                            </h4>
-                                        <h4 class="skills__number" style="text-align: right;">2022 - date</h4>
-                                    </div>
-                               </div>
-                               <div class="skills__data">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEE 861: Mobile Communication Networks and
+                                        Systems</h3>
+                                    <h4 class="skills__number">3</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEE 861: Mobile Communication Networks and
+                                        Systems</h3>
+                                    <h4 class="skills__number">3</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEE 861: Mobile Communication Networks and
+                                        Systems</h3>
+                                    <h4 class="skills__number">3</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------------------ second item ------------------------------>
+                        <div class="skills__list grid">
+                            <h3 class="skills__name" style="color: skyblue;">Undergraduate courses taught and credit
+                                units
+                                <hr>
+                            </h3>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEC 552: Radio Frequency and Microwave
+                                        Fundamentals</h3>
+                                    <h4 class="skills__number">2</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEC 511: Digital Communications</h3>
+                                    <h4 class="skills__number">3</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">ENG 411: Numerical Analysis for Engineers</h3>
+                                    <h4 class="skills__number">3</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEE 341: Electromagnetic Fields and Waves</h3>
+                                    <h4 class="skills__number">3</h4>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEE 352: Electronic and Communication Laboratory
+                                        I</h3>
+                                    <h4 class="skills__number">1</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font">EEE 232: Digital Systems Fundamentals</h3>
+                                    <h4 class="skills__number">3</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------------ -x- second item -x- ----------------------------->
+                    </div>
+                </div>
+                <div>
+                    <!--==================== SKILLS 3 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-graduation-cap skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title media-title">ACTING APPOINTMENT HELD WITHIN THE UNIVERSITY</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <h3 class="skills__name" style="color:skyblue;">March 2006 - Date
+                                <hr>
+                            </h3>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h4 class="skills__name media-font margin_item">
+                                        Acting Head, Department of
+                                        Electrical and Electronci Engineering,
+                                        Akwa Ibom State University, Ikot Akpaden,
+                                        Akwa Ibom State,
+                                        Nigeria
+                                    </h4>
+                                    <h4 class="skills__number" style="text-align: right;">2022 - date</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name media-font margin_item">
-                                        Departmental Postgraduate Coordinator,  Department of
-                                        Electrical and Electronic Engineering, Akwa Ibom State University 
-                                   </h3>
+                                        Departmental Postgraduate Coordinator, Department of
+                                        Electrical and Electronic Engineering, Akwa Ibom State University
+                                    </h3>
                                     <h4 class="skills__number" style="text-align: right;">2018 - 2022</h4>
                                 </div>
-                           </div>
-                           <div class="skills__data">
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font margin_item">
+                                        Chairman, Faculty Research Board, Faculty of Engineering,
+                                        Akwa Ibom State University
+                                        Staff Adviser, Faculty of Engineering, Akwa Ibom State University
+                                    </h3>
+                                    <h4 class="skills__number" style="text-align: right;">2015 - 2022</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font margin_item">
+                                        Welfare Coordinator,
+                                        Faculty of Engineering, Akwa Ibom State University
+                                    </h3>
+                                    <h4 class="skills__number" style="text-align: right;">2015 -2022</h4>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font margin_item">
+                                        Chairman, Departmental Misconduct and Disciplinary Committee,
+                                        Department of Electrical and Electronic Engineering, AKSU
+                                        Member (Electrical and Electronic Consultancy) task force committee
+                                        for the Construction of Administrative Building in Akwa Ibom State University,
+                                        AKSU.
+                                    </h3>
+                                    <h4 class="skills__number" style="text-align: right;">2017</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font margin_item">
+                                        Member (Electrical and Electronic Consultancy)
+                                        task force committee for the Construction of Econometric
+                                        Laboratory, Obio Akpa Campus, Akwa Ibom State University, AKSU.
+                                    </h3>
+                                    <h4 class="skills__number" style="text-align: right;"> 2018</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font margin_item">
+                                        Member, Task Force for the Construction of University Main Entrance Complex,
+                                        AKSU, .
+                                    </h3>
+                                    <h4 class="skills__number" style="text-align: right;">2019</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font margin_item">
+                                        Member (Electrical and Electronic Consultancy),
+                                        Task Force for the Construction of
+                                        Faculty Biological Science Complex, AKSU.
+                                    </h3>
+                                    <h4 class="skills__number" style="text-align: right;">2019</h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font margin_item">
+                                        Member (Electrical and Electronic Consultancy),
+                                        Task Force for the Construction of Entrepreneurship Centre, AKSU.
+                                    </h3>
+                                    <h4 class="skills__number" style="text-align: right;">2018 </h4>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name media-font margin_item">
+                                        Member (Electrical and Electronic Consultancy)
+                                        Task Force for the Construction of School of
+                                        Postgraduate Studies Building, AKSU.
+                                    </h3>
+                                    <h4 class="skills__number" style="text-align: right;">2019</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SKILLS 3 ====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-graduation-cap skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title media-title">CONSULTANCY OUTSIDE THE UNIVERSITY</h1>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                        <!-- <h3 class="skills__name" style="color:skyblue;">March 2006 - Date<hr> </h3> -->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h4 class="skills__name media-font margin_item">
+                                    Examiner, Nigerian Society of Engineers (Electrical and Electronic Engineering)
+                                    Professional Examination into corporate membership of the Nigerian Society of
+                                    Engineers
+                                    (April and September Diets), Uyo Branch, Akwa Ibom State.
+                                </h4>
+                                <h4 class="skills__number" style="text-align: right;">2019 - 2021</h4>
+                            </div>
+                        </div>
+                        <div class="skills__data">
                             <div class="skills__titles">
                                 <h3 class="skills__name media-font margin_item">
-                                    Chairman, Faculty Research Board,  Faculty of Engineering,
-                                     Akwa Ibom State University  
-                                    Staff Adviser, Faculty of Engineering,  Akwa Ibom State University 
+                                    Ex-Officio Member, Nigerian Society of Engineers, Uyo Branch, Akwa Ibom State.
                                 </h3>
-                                <h4 class="skills__number" style="text-align: right;">2015 - 2022</h4>
-                            </div>
-                       </div>
-                       <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font margin_item">
-                                Welfare Coordinator, 
-                                 Faculty of Engineering, Akwa Ibom State University 
-                            </h3>
-                            <h4 class="skills__number" style="text-align: right;">2015 -2022</h4>
-                        </div>
-                     </div>
-
-                     <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font margin_item">
-                                Chairman, Departmental Misconduct  and Disciplinary Committee,
-                                 Department of Electrical  and Electronic Engineering, AKSU
-                                Member (Electrical and Electronic Consultancy) task force committee 
-                                for the Construction of Administrative  Building in Akwa Ibom State University, AKSU.
-                            </h3>
-                            <h4 class="skills__number" style="text-align: right;">2017</h4>
-                        </div>
-                     </div>
-                     <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font margin_item">
-                                Member (Electrical and Electronic Consultancy) 
-                                task force committee for the Construction of Econometric 
-                                Laboratory, Obio Akpa Campus, Akwa Ibom State University, AKSU.                        
-                            </h3>
-                            <h4 class="skills__number" style="text-align: right;"> 2018</h4>
-                        </div>
-                     </div>
-                     <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font margin_item">
-                            Member, Task Force for the Construction of University Main Entrance Complex, AKSU, .
-                            </h3>
-                            <h4 class="skills__number" style="text-align: right;">2019</h4>
-                        </div>
-                     </div>
-                     <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font margin_item">
-                                Member (Electrical and Electronic Consultancy),
-                                 Task Force for the Construction of
-                                  Faculty Biological Science Complex, AKSU.    
-                            </h3>
-                            <h4 class="skills__number" style="text-align: right;">2019</h4>
-                        </div>
-                     </div>
-                     <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font margin_item">
-                                Member (Electrical and Electronic Consultancy),
-                                 Task Force for the Construction of Entrepreneurship Centre, AKSU. 
-                           </h3>
-                            <h4 class="skills__number" style="text-align: right;">2018 </h4>
-                        </div>
-                     </div>
-                     <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name media-font margin_item">
-                                Member (Electrical and Electronic Consultancy) 
-                                Task Force for the Construction of School of
-                                 Postgraduate Studies Building, AKSU.      
-                            </h3>
-                            <h4 class="skills__number" style="text-align: right;">2019</h4>
-                        </div>
-                     </div>
-
-                      </div>
-                        </div>
-                    </div>
-
-                                            <!--==================== SKILLS 3 ====================-->
-                                            <div class="skills__content skills__close">
-                                                <div class="skills__header">
-                                                    <i class="uil uil-graduation-cap skills__icon"></i>
-                                                   <div>
-                                                       <h1 class="skills__title media-title">CONSULTANCY OUTSIDE THE UNIVERSITY</h1>
-                                                   </div>
-                    
-                                                   <i class="uil uil-angle-down skills__arrow"></i>
-                                                </div>
-                                                <div class="skills__list grid">
-                                                    <!-- <h3 class="skills__name" style="color:skyblue;">March 2006 - Date<hr> </h3> -->
-                                                    <div class="skills__data">
-                                                        <div class="skills__titles">
-                                                            <h4 class="skills__name media-font margin_item">
-                                                                Examiner, Nigerian Society of Engineers (Electrical and Electronic Engineering) 
-                                                                Professional Examination into corporate membership of the Nigerian Society of Engineers
-                                                                 (April and September Diets), Uyo Branch, Akwa Ibom State. 
-                                                                </h4>
-                                                            <h4 class="skills__number" style="text-align: right;">2019 - 2021</h4>
-                                                        </div>
-                                                   </div>
-                                                   <div class="skills__data">
-                                                    <div class="skills__titles">
-                                                        <h3 class="skills__name media-font margin_item">
-                                                            Ex-Officio Member, Nigerian Society of Engineers, Uyo Branch, Akwa Ibom State.
-                                                       </h3>
-                                                        <h4 class="skills__number" style="text-align: right;">2017-2020</h4>
-                                                    </div>
-                                               </div>
-                                               <div class="skills__data">
-                                                <div class="skills__titles">
-                                                    <h3 class="skills__name media-font margin_item">
-                                                        Technical Secretary, Nigerian Society of Engineers, Uyo Branch, Akwa Ibom State.
-                                                    </h3>
-                                                    <h4 class="skills__number" style="text-align: right;">2015-2022</h4>
-                                                </div>
-                                           </div>
-                                           <div class="skills__data">
-                                            <div class="skills__titles">
-                                                <h3 class="skills__name media-font margin_item">
-                                                    Career Counsellor, Nigerian Society of Engineers, Uyo Branch, Akwa Ibom State.
-                                                </h3>
-                                                <h4 class="skills__number" style="text-align: right;">2015-Date</h4>
-                                            </div>
-                                         </div>
-                    
-                                         <div class="skills__data">
-                                            <div class="skills__titles">
-                                                <h3 class="skills__name media-font margin_item">
-                                                    Guest Presenter, MTN Telecommunications Limited, on the topic “Information and Communication 
-                                                    Technology (ICT) as a Critical Economic Enabler” Marking World Communications Day. 
-                                                </h3>
-                                                <h4 class="skills__number" style="text-align: right;">2020</h4>
-                                            </div>
-                                         </div>
-                                         <div class="skills__data">
-                                            <div class="skills__titles">
-                                                <h3 class="skills__name media-font margin_item">
-                                                    Electrical and Electronic Engineering Supervisory Consultant for the Design and Construction
-                                                     of 21-Storey High Rise Tower Project at Banking Layout, Udoudoma, Uyo, Akwa Ibom State, Nigeria.                  
-                                                </h3>
-                                                <h4 class="skills__number" style="text-align: right;"> 2018-2021</h4>
-                                            </div>
-                                          <h3 class="skills__name media-font" style="color:skyblue;">
-                                            Client: Akwa Ibom State Government
-                                            Project worth: Over twenty billion (N20 Billion) Naira.
-                                          <hr> </h3>
-                                         </div>
-                                         <div class="skills__data">
-                                            <div class="skills__titles">
-                                                <h3 class="skills__name media-font margin_item">
-                                                Electrical and Electronic Engineering Supervisory Consultant, for the Design and Construction of Saint Gabriel 
-                                                Coconut Refinery, Mkpat Enin L.G.A., Akwa Ibom State.                 
-                                               </h3>
-                                                <h4 class="skills__number" style="text-align: right;">2019-2021</h4>
-                                            </div>
-                                            <h3 class="skills__name media-font" style="color:skyblue;">
-                                                Client: Akwa Ibom State Government
-                                                Project worth: Over five billion (N5 Billion) Naira.
-                                              <hr> </h3>
-    
-                                         </div>
-                                         <div class="skills__data">
-                                            <div class="skills__titles">
-                                                <h3 class="skills__name media-font margin_item">
-                                                    Electrical and Electronic Engineering Supervisory Consultant for the Design and Construction 
-                                                    of Victor Attah International Airport Terminal Facility, Akwa Ibom State. 
-                                                </h3>
-                                                <h4 class="skills__number" style="text-align: right;">2019</h4>
-                                            </div>
-                                            <h3 class="skills__name media-font" style="color:skyblue;">
-                                                Client: Akwa Ibom State Government
-                                                Project worth: Over twenty five billion (N25 Billion) Naira. 
-                                            <hr> </h3>
-                                         </div>
-                                          </div>
-                                            </div>
-                                        </div>
-                    
-                </div>
-            </section>
-
-              <!--==================== QUALIFICATION ====================-->
-              <section class="qualification__section">
-                <h2 class="section__title">Qualification</h2>
-                <span class="section__subtitle">My personal journey</span>
-    
-                <div class="qualification__container container">
-                    <div class="qualification__tabs">
-                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                            <i class="uil uil-graduation-cap qualification__icon"></i>
-                            Education
-                        </div>
-    
-                        <div class="qualification__button button--flex" data-target="#work">
-                            <i class="uil uil-briefcase-alt qualification__icon"></i>
-                            Work
-                        </div>
-                    </div>
-    
-                    <div class="qualification__sections">
-                <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                <div class="qualification__content qualification__active" data-content id="education">
-                 <!--==================== QUALIFICATION 1 ====================--> 
-                 <div class="qualification__data">
-                     <div>
-                         <h3 class="qualification__title">Diploma in English </h3>
-                         <span class="qualification__subtitle">British Council, Kandy</span>
-                         <div class="qualification__calendar">
-                            <i class="uil uil-calendar-alt"></i>
-                            2011 - 2012
-                         </div>
-                     </div>
-    
-                     <div>
-                         <span class="qualification__rounder"></span>
-                         <span class="qualification__line"></span>
-                     </div>
-                 </div>
-                 
-                 <!--==================== QUALIFICATION 2 ====================--> 
-                 <div class="qualification__data">
-                    <div></div>
-                    <div>
-                       <span class="qualification__rounder"></span>
-                       <span class="qualification__line"></span>
-                    </div>
-    
-                    <div>
-                        <h3 class="qualification__title">GCE Adavance Level</h3>
-                        <span class="qualification__subtitle">St.Anthony's College, Kandy</span>
-                        <div class="qualification__calendar">
-                           <i class="uil uil-calendar-alt"></i>
-                           2012 - 2014
-                        </div>
-                    </div>
-                </div> 
-    
-                <!--==================== QUALIFICATION 3 ====================--> 
-                <div class="qualification__data">
-                    <div>
-                        <h3 class="qualification__title">BSc Management Information System</h3>
-                        <span class="qualification__subtitle">NSBM Green University</span>
-                        <div class="qualification__calendar">
-                           <i class="uil uil-calendar-alt"></i>
-                           2015 - 2018
-                        </div>
-                    </div>
-    
-                    <div>
-                        <span class="qualification__rounder"></span>
-                        <span class="qualification__line"></span>
-                    </div>
-                </div> 
-    
-                <!--==================== QUALIFICATION 4 ====================--> 
-                <div class="qualification__data">
-                    <div></div>
-                    <div>
-                        <span class="qualification__rounder"></span>
-                       <!-- <span class="qualification__line"></span> -->
-                    </div>
-    
-                    <div>
-                        <h3 class="qualification__title">Data Analyst Professional Certification</h3>
-                        <span class="qualification__subtitle">Google | Coursera - Online</span>
-                        <div class="qualification__calendar">
-                           <i class="uil uil-calendar-alt"></i>
-                           2021
-                        </div>
-                    </div>
-    
-                    
-                </div>
-                </div>
-                
-                <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                <div class="qualification__content" data-content id="work">
-                    <!--==================== QUALIFICATION 1 ====================--> 
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">Trainee Banking Assistant</h3>
-                            <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
-                            <div class="qualification__calendar">
-                               <i class="uil uil-calendar-alt"></i>
-                               2017 - 2019
+                                <h4 class="skills__number" style="text-align: right;">2017-2020</h4>
                             </div>
                         </div>
-       
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name media-font margin_item">
+                                    Technical Secretary, Nigerian Society of Engineers, Uyo Branch, Akwa Ibom State.
+                                </h3>
+                                <h4 class="skills__number" style="text-align: right;">2015-2022</h4>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name media-font margin_item">
+                                    Career Counsellor, Nigerian Society of Engineers, Uyo Branch, Akwa Ibom State.
+                                </h3>
+                                <h4 class="skills__number" style="text-align: right;">2015-Date</h4>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name media-font margin_item">
+                                    Guest Presenter, MTN Telecommunications Limited, on the topic “Information and
+                                    Communication
+                                    Technology (ICT) as a Critical Economic Enabler” Marking World Communications Day.
+                                </h3>
+                                <h4 class="skills__number" style="text-align: right;">2020</h4>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name media-font margin_item">
+                                    Electrical and Electronic Engineering Supervisory Consultant for the Design and
+                                    Construction
+                                    of 21-Storey High Rise Tower Project at Banking Layout, Udoudoma, Uyo, Akwa Ibom
+                                    State, Nigeria.
+                                </h3>
+                                <h4 class="skills__number" style="text-align: right;"> 2018-2021</h4>
+                            </div>
+                            <h3 class="skills__name media-font" style="color:skyblue;">
+                                Client: Akwa Ibom State Government
+                                Project worth: Over twenty billion (N20 Billion) Naira.
+                                <hr>
+                            </h3>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name media-font margin_item">
+                                    Electrical and Electronic Engineering Supervisory Consultant, for the Design and
+                                    Construction of Saint Gabriel
+                                    Coconut Refinery, Mkpat Enin L.G.A., Akwa Ibom State.
+                                </h3>
+                                <h4 class="skills__number" style="text-align: right;">2019-2021</h4>
+                            </div>
+                            <h3 class="skills__name media-font" style="color:skyblue;">
+                                Client: Akwa Ibom State Government
+                                Project worth: Over five billion (N5 Billion) Naira.
+                                <hr>
+                            </h3>
+
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name media-font margin_item">
+                                    Electrical and Electronic Engineering Supervisory Consultant for the Design and
+                                    Construction
+                                    of Victor Attah International Airport Terminal Facility, Akwa Ibom State.
+                                </h3>
+                                <h4 class="skills__number" style="text-align: right;">2019</h4>
+                            </div>
+                            <h3 class="skills__name media-font" style="color:skyblue;">
+                                Client: Akwa Ibom State Government
+                                Project worth: Over twenty five billion (N25 Billion) Naira.
+                                <hr>
+                            </h3>
                         </div>
                     </div>
-                    
-                    <!--==================== QUALIFICATION 2 ====================--> 
-                    <div class="qualification__data">
-                       <div></div>
-                       <div>
-                          <span class="qualification__rounder"></span>
-                          <span class="qualification__line"></span>
-                       </div>
-       
-                       <div>
-                           <h3 class="qualification__title">Banking Assistant</h3>
-                           <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
-                           <div class="qualification__calendar">
-                              <i class="uil uil-calendar-alt"></i>
-                              2019 - 2020
-                           </div>
-                       </div>
-                   </div> 
-       
-                   <!--==================== QUALIFICATION 3 ====================--> 
-                   <div class="qualification__data">
-                       <div>
-                           <h3 class="qualification__title">Data Analyst - Digital banking</h3>
-                           <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
-                           <div class="qualification__calendar">
-                              <i class="uil uil-calendar-alt"></i>
-                              2020 - Present
-                           </div>
-                       </div>
-       
-                       <div>
-                           <span class="qualification__rounder"></span>
-                           <!-- <span class="qualification__line"></span> -->
-                       </div>
-                   </div> 
-              
-                   </div> 
-                 
-                   </div>
                 </div>
-            </section>
-          
-          
+            </div>
+
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification__section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Diploma in English </h3>
+                                <span class="qualification__subtitle">British Council, Kandy</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2011 - 2012
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">GCE Adavance Level</h3>
+                                <span class="qualification__subtitle">St.Anthony's College, Kandy</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2012 - 2014
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 3 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">BSc Management Information System</h3>
+                                <span class="qualification__subtitle">NSBM Green University</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2015 - 2018
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 4 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Data Analyst Professional Certification</h3>
+                                <span class="qualification__subtitle">Google | Coursera - Online</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Trainee Banking Assistant</h3>
+                                <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2017 - 2019
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Banking Assistant</h3>
+                                <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019 - 2020
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 3 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Data Analyst - Digital banking</h3>
+                                <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
             <h2 class="section__title">Services</h2>
             <span class="section__subtitle">What I offer</span>
 
             <div class="services__container container grid">
-        <!--==================== SERVICES 1 ====================-->  
-        <div class="services__content">
-            <div>
-                <i class="uil uil-analytics skills__icon"></i>
-                <h3 class="services__title">Data Analyst<br></h3>
-            </div>
-            <span class="button button--flex button--small button--link services__button">
-                View more
-                <i class="uil uil-arrow-right button__icon"></i>
-            </span>
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-analytics skills__icon"></i>
+                        <h3 class="services__title">Data Analyst<br></h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
 
-            <div class="services__modal">
-                <div class="services__modal-content">
-                    <h4 class="services__modal-title">Data Analyst <br></h4>
-                    <i class="uil uil-times services__modal-close"></i>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Data Analyst <br></h4>
+                            <i class="uil uil-times services__modal-close"></i>
 
-                    <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I analize data systems.</p>
-                        </li>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I analize data systems.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Automating information retrieval.</p>
-                        </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Automating information retrieval.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Systematically applying statistical and logical techniques.</p>
-                        </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Systematically applying statistical and logical techniques.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Visualizing graphs, charts and preparing reports and dashboards.</p>
-                        </li>
-                    </ul>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Visualizing graphs, charts and preparing reports and dashboards.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>  
-        
-        <!--==================== SERVICES 2 ====================--> 
-        <div class="services__content">
-            <div>
-                <i class="uil uil-money-bill skills__icon"></i>
-                <h3 class="services__title">Banker<br> </h3>
-            </div>
-            <span class="button button--flex button--small button--link services__button">
-                View more
-                <i class="uil uil-arrow-right button__icon"></i>
-            </span>
 
-            <div class="services__modal">
-                <div class="services__modal-content">
-                    <h4 class="services__modal-title">Banker<br></h4>
-                    <i class="uil uil-times services__modal-close"></i>
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-money-bill skills__icon"></i>
+                        <h3 class="services__title">Banker<br> </h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
 
-                    <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Assiting both personal and commercial clients with financial questions and needs.</p>
-                        </li>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Banker<br></h4>
+                            <i class="uil uil-times services__modal-close"></i>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Maintain customer acoounts and help resolve disputes.</p>
-                        </li>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Assiting both personal and commercial clients with financial questions and needs.
+                                    </p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Refer customers to loan officers or other financial specialist.</p>
-                        </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Maintain customer acoounts and help resolve disputes.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Systematically applying statistical and logical techniques.</p>
-                        </li>
-                    </ul>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Refer customers to loan officers or other financial specialist.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Systematically applying statistical and logical techniques.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>  
-       
-        <!--==================== SERVICES 3 ====================-->
-        <div class="services__content">
-            <div>
-                <i class="uil uil-arrow services__icon"></i>
-                <h3 class="services__title">Web Developer<br></h3>
-            </div>
-            <span class="button button--flex button--small button--link services__button">
-                View more
-                <i class="uil uil-arrow-right button__icon"></i>
-            </span>
 
-            <div class="services__modal">
-                <div class="services__modal-content">
-                    <h4 class="services__modal-title">Web  Developer<br></h4>
-                    <i class="uil uil-times services__modal-close"></i>
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title">Web Developer<br></h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
 
-                    <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I develop the user interface.</p>
-                        </li>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Web Developer<br></h4>
+                            <i class="uil uil-times services__modal-close"></i>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Webpage development.</p>
-                        </li>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I create Ux element interactions.</p>
-                        </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Webpage development.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Well trained in WordPress.</p>
-                        </li>
-                    </ul>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create Ux element interactions.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Well trained in WordPress.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
-        </div> 
-  
-       
-        </div>
         </section>
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
@@ -938,80 +1006,210 @@
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
-        <!--==================== PORTFOLIO 1 ====================-->
-        
-            <div class="portfolio__content grid swiper-slide">
-                <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+                    <!--==================== PORTFOLIO 1 ====================-->
 
-                <div class="portfolio_">
-                    <h3 class="portfolio__title media-title">K. Ekanem, E. Ubom and U. Ukommi</h3>
-                    <p class="portfolio__description">
-                        K. Ekanem, E. Ubom and U. Ukommi,"Analysis of Rain Attenuation for Satellite Communication
-                         in Akwa Ibom State, Nigeria'', International Conference and Exhibition on Power and Telecommunication
-                         (ICEPT 2022), Nigerian Institute of Electrical and Electronic Engineers (NIEEE), 2022.
-                    </p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Download
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title media-title">K. Ekanem, E. Ubom and U. Ukommi</h3>
+                            <p class="portfolio__description">
+                                K. Ekanem, E. Ubom and U. Ukommi,"Analysis of Rain Attenuation for Satellite
+                                Communication
+                                in Akwa Ibom State, Nigeria'', International Conference and Exhibition on Power and
+                                Telecommunication
+                                (ICEPT 2022), Nigerian Institute of Electrical and Electronic Engineers (NIEEE), 2022.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Download
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title media-title">V. B. Umoh, U. Ukommi and U. M. Ekpe</h3>
+                            <p class="portfolio__description">
+                                V. B. Umoh, U. Ukommi and U. M. Ekpe, "A Simplified Method for Extended Duration
+                                Measurements of
+                                Mobile Broadband Performance", 2022 IEEE Nigeria International Conference on Disruptive
+                                Technologies
+                                for Sustainable Development (NIGERCON), 2022. </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Download
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 3 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title media-title">Mfonobong Uko, Sunday Ekpo, U. Ukommi and Rupak
+                                Kharel</h3>
+                            <p class="portfolio__description">
+                                Mfonobong Uko, Sunday Ekpo, U. Ukommi and Rupak Kharel, “Shadoowing Effect on the Area
+                                Spectral
+                                Efficiency of a Macro-Femto Heterogeneous Network for Cell-Edge Users”, Proceedings 31st
+                                Annual
+                                Review
+                                of Progress in Applied Computational Electromagnetics, Virginia, USA, March 2015. </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Download
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 4 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title media-title">U. Ukommi, K. Kodikara Arachchi, Safak Dogan and
+                                A.M.
+                                Kondoz</h3>
+                            <p class="portfolio__description">
+                                U. Ukommi, K. Kodikara Arachchi, Safak Dogan and A.M. Kondoz, “Content-Aware Bitrate
+                                Adaptation
+                                for
+                                Robust Mobile Video Services”, IEEE International Symposium on Broadband Multimedia
+                                Systems and
+                                Broadcasting,
+                                United Kingdom, June 2013. <br>
+
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Download
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 5 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title media-title">U. Ukommi</h3>
+                            <p class="portfolio__description">
+                                U. Ukommi, “Adaptation Scheme for Improved Multimedia Communication”,
+                                World Congress on Engineering and Computer Science, 2015, October, 2015.
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Download
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                        </div>
+                    </div>
+
+
+                    <!--==================== PORTFOLIO 6 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title media-title">Rapporteur, 2021 Nigerian Society of Engineers
+                                Conference
+                            </h3>
+                            <p class="portfolio__description">
+                                Rapporteur, 2021 Nigerian Society of Engineers Conference,
+                                ‘Sustainable Infrastructural and Industrial Development in Akwa Ibom State – The
+                                Critical Role
+                                of Engineers”.
+                                Organised by The Nigerian Society of Engineers (NSE), Uyo Branch, Akwa Ibom State (24 -
+                                30,
+                                July, 2021).
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Download
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 7 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title media-title">
+                                Managing Power and Communication in a Digital Economy.
+                            </h3>
+                            <p class="portfolio__description">
+                                Managing Power and Communication in a Digital Economy.
+                                Organised by The Nigerian Institution of Electrical and Electronics Engineers (NIEEE),
+                                Held at Uyo, Akwa Ibom State (October, 2019).
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Download
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 8 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title media-title">
+                                Strategic Alliance Amongst Engineering Professionals
+                            </h3>
+                            <p class="portfolio__description">
+                                Strategic Alliance Amongst Engineering Professionals for Enhanced Opportunities.
+                                Organised by COREN, Abuja (19-21 August, 2019).
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Download
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 9 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title media-title">
+                                Business of Consulting Engineering
+                            </h3>
+                            <p class="portfolio__description">
+                                Business of Consulting Engineering, organized by Association of Consulting Engineers in
+                                Nigeria (ACEN), Lagos (9-10 September, 2014) <a href="#"
+                                    class="button button--flex button--small portfolio__button">
+                                    Download
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                        </div>
+                    </div>
+
+
+
                 </div>
-            </div>
 
-            <!--==================== PORTFOLIO 2 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-                <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
-
-                <div class="portfolio_">
-                    <h3 class="portfolio__title media-title">K. Ekanem, E. Ubom and U. Ukommi</h3>
-                    <p class="portfolio__description">
-                        K. Ekanem, E. Ubom and U. Ukommi,"Analysis of Rain Attenuation for Satellite Communication
-                         in Akwa Ibom State, Nigeria'', International Conference and Exhibition on Power and Telecommunication
-                         (ICEPT 2022), Nigerian Institute of Electrical and Electronic Engineers (NIEEE), 2022.
-                    </p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Download
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-            <!--==================== PORTFOLIO 3 ====================-->
-        
-            <div class="portfolio__content grid swiper-slide">
-                <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
-
-                <div class="portfolio_">
-                    <h3 class="portfolio__title media-title">K. Ekanem, E. Ubom and U. Ukommi</h3>
-                    <p class="portfolio__description">
-                        K. Ekanem, E. Ubom and U. Ukommi,"Analysis of Rain Attenuation for Satellite Communication
-                         in Akwa Ibom State, Nigeria'', International Conference and Exhibition on Power and Telecommunication
-                         (ICEPT 2022), Nigerian Institute of Electrical and Electronic Engineers (NIEEE), 2022.
-                    </p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Download
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-
+                <!-- add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
                 </div>
 
-            <!-- add arrows-->
-            <div class="swiper-button-next">
-                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-            </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
 
-            <div class="swiper-button-prev">
-                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-            </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
 
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            
-        
-        </div>
+
+            </div>
 
         </section>
-
         <!--==================== PROJECT IN MIND ====================-->
         <section class="project section">
 
@@ -1019,11 +1217,12 @@
                 <div class="project__container container grid">
                     <div class="project__data">
                         <h2 class="project__title">You have a new project?</h2>
-                        <p class="project__description">Contact me now and get discounts on your Web development projects.</p>
+                        <p class="project__description">Contact me now and get discounts on your Web development
+                            projects.</p>
                         <a href="#contact" class="button button--flex button--white">Contact me
                             <i class="uil uil-message project__icon button__icon"></i>
                         </a>
-                       
+
                     </div>
                     <!-- <img src="assets/img/project.png" alt="" class="project__img"> -->
                 </div>
@@ -1039,12 +1238,12 @@
 
             <div class="testimonial__container container swiper-container">
                 <div class="swiper-wrapper">
-                <!--==================== TESTIMONIAL 1 ====================-->
+                    <!--==================== TESTIMONIAL 1 ====================-->
                     <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
                                 <img src="./packages/images/arun.PNG" alt="" class="testimonial__img">
-                                
+
                                 <div>
                                     <h3 class="testimonial__name">Arun Prashanth</h3>
                                     <span class="testimonial__client">Client</span>
@@ -1059,7 +1258,7 @@
                             </div>
                         </div>
 
-                        <p class="testimonial__description">I get a good impression, I carry out my project with all the 
+                        <p class="testimonial__description">I get a good impression, I carry out my project with all the
                             possible quality and attention and support 24 hours a day.
                         </p>
                     </div>
@@ -1068,7 +1267,7 @@
                         <div class="testimonial__data">
                             <div class="testimonial__header">
                                 <img src="./packages/images/yuga.PNG" alt="" class="testimonial__img">
-                                
+
                                 <div>
                                     <h3 class="testimonial__name">Yugadarshan</h3>
                                     <span class="testimonial__client">Client</span>
@@ -1083,7 +1282,7 @@
                             </div>
                         </div>
 
-                        <p class="testimonial__description">I get a good impression, I carry out my project with all the 
+                        <p class="testimonial__description">I get a good impression, I carry out my project with all the
                             possible quality and attention and support 24 hours a day.
                         </p>
                     </div>
@@ -1092,7 +1291,7 @@
                         <div class="testimonial__data">
                             <div class="testimonial__header">
                                 <img src="./packages/images/shenan.PNG" alt="" class="testimonial__img">
-                                
+
                                 <div>
                                     <h3 class="testimonial__name">Shenan Sachinthan</h3>
                                     <span class="testimonial__client">Client</span>
@@ -1107,15 +1306,15 @@
                             </div>
                         </div>
 
-                        <p class="testimonial__description">I get a good impression, I carry out my project with all the 
+                        <p class="testimonial__description">I get a good impression, I carry out my project with all the
                             possible quality and attention and support 24 hours a day.</p>
-                    </div>      
+                    </div>
                 </div>
 
                 <!--Add pagination-->
                 <div class="swiper-pagination swiper-pagination-testimonial"></div>
             </div>
-            </section>
+        </section>
 
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
@@ -1229,7 +1428,7 @@
     <a href="#" class="scrollup" id="scroll-up">
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
-    
+
 
     <!--==================== SWIPER JS ====================-->
     <script src="./packages/js/swiper-bundle.min.js"></script>
@@ -1241,19 +1440,19 @@
 
 
     <script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
         }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
 
 
     </script>
