@@ -477,7 +477,7 @@ img {
 }
 .text-shadow{
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-  padding: 1.1rem 1.1rem;
+  padding: 1.1rem .3rem;
 }
 
 .tab-titles{
@@ -888,9 +888,9 @@ img {
   border-radius: 0.5rem;
   justify-self: center;
 }
-.portfolio__img-research{
+/* .portfolio__img-research{
   width: 100%;
-}
+} */
 
 .portfolio__title {
   font-size: var(--h3-font-size);
