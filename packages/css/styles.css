@@ -255,11 +255,18 @@ img {
     border-radius: 3px;
   }
 .tab-links{
-  text-align: center !important;
+  /* text-align: center !important; */
   font-size: 15px !important;
   margin-right: 5px !important;
 
 }
+.media-text-aligfn-left{
+  text-align: left !important;
+}
+.tab-links-font{
+  font-size: 10px !important;
+}
+
 .media-font{
   font-size: 13px !important;
 }
