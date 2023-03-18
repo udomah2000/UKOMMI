@@ -475,6 +475,10 @@ img {
   font-weight: 600;
   color: #080808;
 }
+.text-shadow{
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+  padding: 1.1rem 1.1rem;
+}
 
 .tab-titles{
   display: flex;
@@ -505,7 +509,7 @@ img {
   font-weight: 750;
 }
 .tab-links-font{
-  font-size: 10px;
+  font-size: 13px;
 }
 
 
@@ -883,6 +887,9 @@ img {
   width: 265px;
   border-radius: 0.5rem;
   justify-self: center;
+}
+.portfolio__img-research{
+  width: 100%;
 }
 
 .portfolio__title {
