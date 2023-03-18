@@ -257,7 +257,7 @@ img {
 .tab-links{
   /* text-align: center !important; */
   font-size: 15px !important;
-  margin-right: 5px !important;
+  margin: 0 auto !important;
 
 }
 .media-text-aligfn-left{
@@ -483,8 +483,7 @@ img {
 .tab-titles{
   display: flex;
   justify-content: center;
-  margin:0  5px;
-  /* text-align: center; */
+  margin:0  auto !important;
 
 }
 
