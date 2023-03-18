@@ -482,16 +482,17 @@ img {
 
 .tab-titles{
   display: flex;
-  margin: 20px 0 40px;
+  justify-content: center;
+  margin:0  5px;
+  /* text-align: center; */
+
 }
 
 .tab-links{
-   margin:0  auto;
    font-size: 18px;
    font-weight: 500;
    cursor: pointer;
    position: relative;
-   text-align: center;
 }
 .tab-contents{
   display: none;
