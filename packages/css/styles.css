@@ -280,6 +280,10 @@ img {
   font-size: 18px !important;
 }
 
+.portfolio__img{
+  width: 100% !important;
+}
+
 }
 
 
