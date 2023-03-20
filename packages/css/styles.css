@@ -270,6 +270,9 @@ img {
 .media-font{
   font-size: 13px !important;
 }
+.media-font-center{
+  text-align: center !important;
+}
 .margin_item{
   margin-right: 1.5rem !important;
 }
